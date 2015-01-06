@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+	<title>首页</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="page-header">
+            <img id="logo" src="../static/images/logo.jpg" alt="logo">
+        </div>
+        <div class="cover">
+            
+            <h3>喜欢吗？约吗？</h3>
+            <div>
+                <a href=""><button type="button" class="btn btn-primary">登录</button></a>
+                <a href=""><button type="button" class="btn btn-danger">注册</button></a>
+            </div>
+        </div>
+        
+        <a href="" id="index">首页</a>
+
+        <div class="row" id="activities">
+            <div class="col-xs-12">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">热门活动</h3>
+                    </div>
+                    <div class="panel-body">
+                       <div id="myCarousel" class="carousel slide">
+                            <!-- 轮播（Carousel）指标 -->
+                           <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                           </ol>   
+                           <!-- 轮播（Carousel）项目 -->
+                           <div class="carousel-inner">
+                              <div class="item active">
+                                 <img src="../static/images/slide1.jpg" alt="First slide">
+                              </div>
+                              <div class="item">
+                                 <img src="../static/images/slide2.jpg" alt="Second slide">
+                              </div>
+                              <div class="item">
+                                 <img src="../static/images/slide3.jpg" alt="Third slide">
+                              </div>
+                           </div>
+                           <!-- 轮播（Carousel）导航 -->
+                           <a class="carousel-control left" href="#myCarousel" 
+                              data-slide="prev">&lsaquo;</a>
+                           <a class="carousel-control right" href="#myCarousel" 
+                              data-slide="next">&rsaquo;</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        
+        
+
+
+        <footer class="bs-docs-footer" role="contentinfo">
+            <div class="container">
+                <div class="copyright">© 2014 yuema, all rights reserved </div>
+            </div>
+        </footer>
+        
+
+    </div>
+    
+    <script src="../static/js/jquery-2.1.3.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+</html>
